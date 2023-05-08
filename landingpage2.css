@@ -1,0 +1,155 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f4f4f4;
+    
+
+}
+.image{
+    height: 300px;
+    width: 320px;
+    background-image: url('12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1 px solid black;
+    box-shadow: 2px 4px 4px rgb(124, 134, 134);
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta {
+    background-color: #007aff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.cta:hover {
+    background-color: #0061cc;
+}
+
+.features {
+    list-style: none;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.features li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.price {
+    background-color: #eee;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    flex-basis: 300px;
+}
+
+.price h3 {
+    font-size: 1.5em;
+}
+
+.price-tag {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.price ul {
+    list-style: none;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.price ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.price .cta {
+    background-color: #007aff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+}
+
+.price .cta:hover {
+    background-color: #0061cc;
+}
